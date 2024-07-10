@@ -1,0 +1,96 @@
+{
+    "yatchs": [
+      {
+        "id": 1,
+        "first_name": "Azam",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSNAoA2eHSBEzUDchmvf8hRAOP8dZWSgJrvw&s",
+        "price": "$36428.24",
+        "description": "a533654e2992b614ca97382375cade1b5ced6c23",
+        "amenities": ["WiFi", "Bar", "Catering available"],
+        "capacity": 1000
+      },
+      {
+        "id": 2,
+        "first_name": "Eclipse",
+        "image": "https://www.tessllc.us/wp-content/uploads/2020/07/Eclipse-superyacht.jpeg",
+        "price": "$61069.75",
+        "description": "5c074c0a7a9bd69d97e7e021217b231c2a03cb40",
+        "amenities": ["WiFi", "Children's play area", "Swimming pool"],
+        "capacity": 2500
+      },
+      {
+        "id": 3,
+        "first_name": "Dubai",
+        "image": "https://image.khaleejtimes.com/?uuid=7bca9d69-189d-57ad-96e7-6507680bc471&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.99956&x=0&y=0&width=1200&height=675",
+        "price": "$21963.97",
+        "description": "22d813c426573872c646cc33191f734f1ba06340",
+        "amenities": ["WiFi", "Children's play area", "Swimming pool"],
+        "capacity": 300
+      },
+      {
+        "id": 4,
+        "first_name": "Rising sun",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4IIYiQ5CTW1TaaOR_vbUUXPlc81fY1yRWw&s",
+        "price": "$55970.18",
+        "description": "bee2ff7655ff5d5c4169305d97e4015224b2778b",
+        "amenities": ["WiFi", "Bar", "Catering available"],
+        "capacity": 4000
+      },
+      {
+        "id": 5,
+        "first_name": "Dilbar",
+        "image": "https://yacht.the-billionaires-club.com/wp-content/uploads/2021/01/DilbarYachtAntibes2016New.png",
+        "price": "$18315.94",
+        "description": "7398f2c698ff8de19bb60eb739e17ae773fb526f",
+        "amenities": ["WiFi", "Children's play area", "Swimming pool"],
+        "capacity": 5000
+      },
+      {
+        "id": 6,
+        "first_name": "Sailing yacht",
+        "image": "https://oysteryachts.com/assets/Uploads/BlockBuilder/Elements/V5/CustomBlock/Oyster-New-Yacht-Fleet-Oyster-675-Sailing-v2__FillMaxWzg2NSw1MDBd.jpg",
+        "price": "$13261.36",
+        "description": "28eb8c160969d1857d5fc49e857d5f88150cc8d0",
+        "amenities": ["WiFi", "Bar", "Catering available"],
+        "capacity": 6000
+      },
+      {
+        "id": 7,
+        "first_name": "Al Said Yacht",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2raX7S_PkiXbuT9YHb3YbB0nCy0P_d6Gn5b4JqV02Xt3L5skeZNDxpIS_nVonm8b5rXo&usqp=CAU",
+        "price": "$24587.59",
+        "description": "fa1b51fa38fa1033dcde25dc58770c9e8057488b",
+        "amenities": ["WiFi", "Bar", "Catering available"],
+        "capacity": 7400
+      },
+      {
+        "id": 8,
+        "first_name": "Pelorus Yacht",
+        "image": "https://cdn.boatinternational.com/files/2022/09/876a43d0-3f08-11ed-be54-834018b99f5a-pelorus-deck.jpg",
+        "price": "$11669.77",
+        "description": "397359f4bac63c0e5d5ce9a07112772c3f9ad7e3",
+        "amenities": ["WiFi", "Bar", "Catering available"],
+        "capacity": 80000
+      },
+      {
+        "id": 9,
+        "first_name": "Serene Yacht",
+        "image": "https://yacht.the-billionaires-club.com/wp-content/uploads/2021/01/Serene134MYacht.png",
+        "price": "$44987.44",
+        "description": "8bd0d94701d874ad01c3df542650613371d35d7a",
+        "amenities": ["WiFi", "Children's play area", "Swimming pool"],
+        "capacity": 4000
+      },
+      {
+        "id": 10,
+        "first_name": "Topaz Yacht",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTllybMElHPd0tXmLC2k6AsYIOushDQkMoH-Q&s",
+        "price": "$49251.48",
+        "description": "4db91cf5e55ff344aaffd276457a9eda895f76e4",
+        "amenities": ["WiFi", "Bar", "Catering available"],
+        "capacity": 10000
+      }
+    ],
+    "bookings": []
+  }
+  
