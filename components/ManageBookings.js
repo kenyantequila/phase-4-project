@@ -36,7 +36,7 @@ const ManageBookings = () => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(newBooking)
-    })
+     })
       .then(response => response.json())
       .then(data => setBookings([...bookings, data]))
       .catch(error => console.error('Error adding booking:', error));
