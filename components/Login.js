@@ -10,8 +10,7 @@ const Login = ({ setLoggedIn }) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Here you would normally verify the credentials
-    if (username === 'steve' && password === 'steve') {
+    if (username === '' && password === '') {
       setLoggedIn(true);
       navigate('/');
     } else {

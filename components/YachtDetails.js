@@ -4,16 +4,37 @@ import { useParams } from 'react-router-dom';
 const YachtDetails = () => {
   const { id } = useParams();
   const [yacht, setYacht] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:3002/yatchs/${id}`)
-      .then(response => response.json())
-      .then(data => setYacht(data))
-      .catch(error => console.error('Error fetching data:', error));
+    fetch(`http://localhost:8000/yatchs/${id}`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        setYacht(data);
+        setLoading(false);
+      })
+      .catch(error => {
+        setError(error.message);
+        setLoading(false);
+      });
   }, [id]);
 
-  if (!yacht) {
+  if (loading) {
     return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  if (!yacht) {
+    return <div>Yacht not found</div>;
   }
 
   return (
@@ -28,5 +49,4 @@ const YachtDetails = () => {
     </div>
   );
 };
-
 export default YachtDetails;

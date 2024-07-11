@@ -19,7 +19,7 @@ const BookYacht = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3002/bookings', {
+    fetch('http://localhost:8000/bookings', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
