@@ -43,7 +43,7 @@ function App() {
           <Route
             path="/manage-bookings"
             element={loggedIn ? <ManageBookings /> : <Navigate to="/login" />}
-          />
+          />.
         </Routes>
       </Router>
     </div>
