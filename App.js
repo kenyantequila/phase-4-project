@@ -13,12 +13,12 @@ function App() {
   const [loggedIn, setLoggedIn] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:8000/yachts")
+    fetch("http://localhost:8000/yatchs")
       .then(response => response.json())
       .then(data => {
         console.log('Fetched yachts:', data);
         setYachts(data);
-  })
+      })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
@@ -43,7 +43,7 @@ function App() {
           <Route
             path="/manage-bookings"
             element={loggedIn ? <ManageBookings /> : <Navigate to="/login" />}
-          />.
+          />
         </Routes>
       </Router>
     </div>
@@ -51,4 +51,3 @@ function App() {
 }
 
 export default App;
-

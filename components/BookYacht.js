@@ -1,6 +1,6 @@
-// components/BookYacht.js
-import React, { useState } from 'react';
 
+import React, { useState } from 'react';
+import './BookYatch.css'
 const BookYacht = () => {
   const [booking, setBooking] = useState({
     yachtId: '',
@@ -40,26 +40,28 @@ const BookYacht = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>Book a Yacht</h2>
-      <label>
-        Yacht ID:
-        <input type="text" name="yachtId" value={booking.yachtId} onChange={handleChange} required />
-      </label>
-      <label>
-        Date Range:
-        <input type="text" name="dateRange" value={booking.dateRange} onChange={handleChange} required />
-      </label>
-      <label>
-        Guests:
-        <input type="number" name="guests" value={booking.guests} onChange={handleChange} required />
-      </label>
-      <label>
-        Special Requests:
-        <textarea name="specialRequests" value={booking.specialRequests} onChange={handleChange}></textarea>
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+    <div className="book-yacht-container">
+      <form className="book-yacht-form" onSubmit={handleSubmit}>
+        <h2>Book a Yacht</h2>
+        <div className="form-group">
+          <label htmlFor="yachtId">Yacht ID:</label>
+          <input type="text" id="yachtId" name="yachtId" value={booking.yachtId} onChange={handleChange} required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="dateRange">Date Range:</label>
+          <input type="text" id="dateRange" name="dateRange" value={booking.dateRange} onChange={handleChange} required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="guests">Guests:</label>
+          <input type="number" id="guests" name="guests" value={booking.guests} onChange={handleChange} required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="specialRequests">Special Requests:</label>
+          <textarea id="specialRequests" name="specialRequests" value={booking.specialRequests} onChange={handleChange}></textarea>
+        </div>
+        <button type="submit" className="submit-btn">Submit</button>
+      </form>
+    </div>
   );
 };
 
