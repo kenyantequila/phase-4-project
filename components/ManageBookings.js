@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ManageBooking.css';
+import './ManageBookings.css';
 
 const ManageBookings = () => {
   const [bookings, setBookings] = useState([]);
@@ -19,7 +19,6 @@ const ManageBookings = () => {
 
   const handleEdit = (bookingId) => {
     console.log('Editing booking:', bookingId);
-    // Handle edit logic here
   };
 
   const handleDelete = (bookingId) => {

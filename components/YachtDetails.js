@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import './YatchDetails.css'
 
 const YachtDetails = () => {
   const { id } = useParams();
@@ -38,7 +39,7 @@ const YachtDetails = () => {
   }
 
   return (
-    <div>
+    <div className='style'>
       <h1>{yacht.first_name}</h1>
       <img src={yacht.image} alt={yacht.first_name} />
       <p>{yacht.description}</p>
